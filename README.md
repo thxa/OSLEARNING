@@ -36,7 +36,6 @@ We are a team of 6 learners, each focusing on one topic to later share insights 
 <!-- <img src="https://github.com/x-3z-x.png" width="40"> [@x-3z-x](https://github.com/x-3z-x) -->
 <!-- <img src="https://github.com/thxa.png" width="40"> [@thxa](https://github.com/thxa) -->
 
-### 👥 Team
 
 | Member | Responsibility |
 |:--------|:----------------|
@@ -47,9 +46,14 @@ We are a team of 6 learners, each focusing on one topic to later share insights 
 | <img src="https://github.com/x-3z-x.png" width="40"> [@x-3z-x](https://github.com/x-3z-x) | [⌨️ Input/Output](./input-output) |
 | <img src="https://github.com/thxa.png" width="40"> [@thxa](https://github.com/thxa) | [⚙️ Mach-O Format](./mach-o-format) |
 
+
 ## 📘 Notes
 - Focus on concepts first, then macOS-specific implementation.
 - Use each folder for documentation, notes, experiments, or example code.
 - Follow consistent formatting and commit style.
 
 <!-- <img src="https://github.com/member.png" width="40"> [@member](https://github.com/member) -->
+
+<!-- for dir in process-management memory-management file-system network input-output mach-o-format; do -->
+<!--   echo "# ${dir//-/ }" | sed 's/\b\(.\)/\u\1/g' > "$dir/README.md" -->
+done
