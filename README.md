@@ -55,5 +55,6 @@ We are a team of 6 learners, each focusing on one topic to later share insights 
 <!-- <img src="https://github.com/member.png" width="40"> [@member](https://github.com/member) -->
 
 <!-- for dir in process-management memory-management file-system network input-output mach-o-format; do -->
-<!--   echo "# ${dir//-/ }" | sed 's/\b\(.\)/\u\1/g' > "$dir/README.md" -->
+<!--   echo "# ${dir//-/ }" | sed 's/\b\(.\)/\u\1/g' > "$dir/README.md"
 done
+-->
