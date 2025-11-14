@@ -1,4 +1,3 @@
-# Process Management
 # 🚀 macOS Process Management: A Learning Journey
 
 This repository documents my deep dive into the internals of process management on macOS, based on the book **"Mac OS X and iOS Internals: To the Apple's Core"** by Jonathan Levin.
@@ -19,9 +18,9 @@ This repo follows a structured learning path. Completed steps are documented and
     * **Reference:** Chapter 4
     * **Concepts:** Process Lifecycle (SIDL, SRUN, SSLEEP, SZOMB), UNIX Signals, Process Address Space (ASLR, PAGEZERO), Threads.
 
-3.  **Step 3: Kernel Deep Dive (Upcoming)**
-    * **Reference:** Chapters 10, 11, 13
-    * **Concepts:** Mach Tasks, Mach Threads, BSD `proc` struct, `fork()`, `exec()`.
+3.  **[Step 3: Kernel Deep Dive - Mach Tasks & Threads](STEP_3_KERNEL_DEEP_DIVE/3.1_Mach_Tasks_and_Threads.md)**
+    * **Reference:** Chapter 11
+    * **Concepts:** Mach's "Bottom-Up" Model, `struct thread`, `struct task`, Scheduling Primitives, `priority` vs. `sched_pri`, `bsd_info` & `uthread` links.
 
 4.  **Step 4: The Manager (Upcoming)**
     * **Reference:** Chapter 7
